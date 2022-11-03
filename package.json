@@ -1,0 +1,19 @@
+{
+  "name": "kitkat",
+  "version": "1.0.0",
+  "description": "Smoke Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Amanda Colloca",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^10.8.0",
+    "gerador-validador-cpf": "^5.0.2"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
